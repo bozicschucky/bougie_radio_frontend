@@ -3,6 +3,7 @@ const cacheName = "bouge-pwa";
 const filesToCache = [
   "/",
   "/views/index.html",
+  "/views/contact.html",
   "/js/index.js",
   "/css/styles.css",
 ];
