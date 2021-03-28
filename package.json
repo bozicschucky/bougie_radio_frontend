@@ -1,0 +1,11 @@
+{
+  "name": "bougie_radio_web",
+  "version": "1.0.0",
+  "description": "simple radio streaming service app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sekito_charles",
+  "license": "MIT"
+}
