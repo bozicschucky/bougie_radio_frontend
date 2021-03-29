@@ -1,0 +1,1 @@
+Simple Web App to practice service workers
