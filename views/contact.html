@@ -11,20 +11,51 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <title>Contact us</title>
+  <style>
+    #submit-btn {
+      margin: auto;
+      width: 100px;
+      padding: 10px;
+    }
+
+    #submit-btn-container {
+      display: flex;
+      align-items: center;
+    }
+  </style>
 </head>
 
-<body>
-  <h4 class="center">Provide feedback</h4>
-  <form>
-    <div class="form-row">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First name">
+<body class="container">
+  <h4 style="text-align: center;">Bougie Radio</h4>
+  <h4 style="text-align: center;">Have Any questions</h4>
+  <div class="form-container d-flex">
+    <form class="container-fluid  justify-content-center">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last name">
+      <div class="mb-3">
+        <label for="email" class="form-label">email</label>
+        <input type="email" class="form-control" id="email-input">
       </div>
-    </div>
-  </form>
+      <div class="mb-3">
+        <label for="phone" class="form-label">phone</label>
+        <input type="phone" class="form-control" id="phone">
+      </div>
+      <div class="mb-3">
+        <label for="feedback" class="form-label">feedback</label>
+        <textarea class="form-control" id="feedback" rows="3"></textarea>
+      </div>
+      <div class="mb-3" id="submit-btn-container">
+        <button type="submit" class="btn btn-dark" id="submit-btn">Submit</button>
+      </div>
+    </form>
+
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
