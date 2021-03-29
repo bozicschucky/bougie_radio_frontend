@@ -49,3 +49,51 @@
 #audio-player{
   width: 200px;
 }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+  body{
+    background-color: beige;
+  }
+  #playing-text{
+    margin-top: 3px;
+    margin-right: 22px;
+    margin-left: 11px;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body{
+    background-color: gold;
+  }
+  #playing-text{
+    margin-top: 14px;
+    margin-right: 85px;
+    margin-left: 85px;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   body{
+    background-color: yellowgreen;
+  }
+  #playing-text{
+    margin-top: 14px;
+    margin-right: 85px;
+    margin-left: 85px;
+  }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  body{
+    background-color: blueviolet;
+  }
+  #playing-text{
+    margin-top: 14px;
+    margin-right: 85px;
+    margin-left: 85px;
+  }
+}
