@@ -2,6 +2,7 @@ const cacheName = "bougie-pwa";
 
 const filesToCache = [
   "/",
+  "/index.html",
   "/views/contact.html",
   "/js/index.js",
   "/css/styles.css",
