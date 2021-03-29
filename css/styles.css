@@ -1,4 +1,51 @@
 #parent-container{
   background-color: white;
-  display: flex;
+  /* display: flex; */
+}
+.icons{
+  font-size: o.5rem;
+}
+
+#ad-banner-main{
+  /* width: 20%;
+  height: 20%; */
+  background-color: aqua !important;
+
+}
+
+#radio-image{
+  margin-top: 5px;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons{
+  margin: 10px 10px;
+}
+
+#ad-scroll{
+  margin-top: 15px;
+  width: 100%;
+  height: 20%;
+  background-color: bisque;
+}
+
+#playing-text{
+  margin-top: 14px;
+  /* margin-right: 85px; */
+}
+
+#contact-us{
+  margin-top: 5px;
+}
+
+#radio-player{
+  background-color: cornflowerblue;
+  margin-top: 2px;
+}
+
+#audio-player{
+  width: 200px;
 }
