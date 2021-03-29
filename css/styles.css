@@ -76,9 +76,7 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-   body{
-    background-color: yellowgreen;
-  }
+
   #playing-text{
     margin-top: 14px;
     margin-right: 85px;
@@ -88,9 +86,6 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-  body{
-    background-color: blueviolet;
-  }
   #playing-text{
     margin-top: 14px;
     margin-right: 85px;
