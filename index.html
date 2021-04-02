@@ -29,15 +29,17 @@
         <div id="ad-banner-main">
           <img src="/images/black-friday-sale.jpg" alt="ad-banner image" class="img-fluid" srcset="">
         </div>
-        <div id="radio-image" class="justify-content-center">
-          <img src="/images/upload.png" class="img-fluid" alt="Responsive image">
+        <!-- <div id="radio-image"> -->
+        <!-- <img src="/images/upload.png" class="img-fluid" alt="Responsive image"> -->
+        <!-- 4:3 aspect ratio -->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://bougieradio.airtime.pro/embed/weekly-program"></iframe>
         </div>
+        <!-- </div> -->
         <div id="ad-scroll">Ad Scroll</div>
-        <div class="d-flex" id="radio-player">
-          <p id="playing-text">Player Text</p>
-          <audio controls="" autoplay="" name="media" id="audio-player">
-            <source src="https://bougieradio.out.airtime.pro/bougieradio_a" type="audio/mpeg">
-          </audio>
+        <div class="embed-responsive embed-responsive-16by9" id="radio-player">
+          <iframe id="embed_player" class="embed-responsive-item" frameborder="0"
+            src="https://bougieradio.airtime.pro/embed/player?stream=auto&skin=1"></iframe>
         </div>
       </div>
     </div>
