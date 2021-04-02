@@ -1,6 +1,6 @@
 {
-  "name": "Bouge Radio",
-  "short_name": "Bouge Radio",
+  "name": "Togo Radio",
+  "short_name": "Togo Radio",
   "icons": [
     {
       "src": "images/hello-icon-128.png",
@@ -35,7 +35,7 @@
     }
   ],
   "lang": "en-US",
-  "start_url": "/views/index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"

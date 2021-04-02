@@ -1,4 +1,4 @@
-const cacheName = "bougie-pwa";
+const cacheName = "Togo-pwa";
 
 const filesToCache = [
   "/",
